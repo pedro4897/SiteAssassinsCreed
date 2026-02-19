@@ -1,17 +1,51 @@
-h1 {color: rgb(234, 234, 248);font-size: xx-large;font-style: italic;text-align: center;}
+body {background-color: rgb(19, 133, 179);
+  image-rendering: optimizeQuality;  
+  background-image: url(imagens/wp2937273.webp);
+  background-position: 35%;
+  background-size: cover;}
+
+h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align: center;
+}
 
 header {
-  background-color: #090276;
+
   text-align: center;
-  padding: 5px;
+  padding-left: 35%;
+  padding-right: 35%;
+  border: spacing 5px;
+  padding-block-end: 10%;
 }
-body {background-color: rgb(19, 133, 179);}
+
 
 nav {
-    background-color: rgb(2, 17, 80);
+    backface-visibility: hidden;
     padding: 1%;
     font-size: x-large;
-    display: ruby-text-container;
     font-style: italic;
+   
+    
 
+}
+.nav-links a{
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration-line: none;
+  color: rgb(210, 197, 197);
+  font-size: x-large;
+   
+   
+  
+}
+.nav-links{
+  list-style-type: none;
+  
+}
+.nome{
+  color: aliceblue;
+}
+.ano{
+  color: aliceblue;
+}
+.descricao {
+  color: aliceblue;
 }
