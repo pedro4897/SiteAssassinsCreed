@@ -8,13 +8,14 @@ body {background-color: rgb(19, 133, 179);
  body.android {
   background-size: 50; /* ou qualquer estilo só para Android */
   nav-down: auto;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align: center;
 }
 
 header {
-  
   align-items: center;
   text-align: center;
   padding-left: 35%;
