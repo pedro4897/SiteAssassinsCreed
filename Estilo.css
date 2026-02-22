@@ -5,6 +5,10 @@ body {background-color: rgb(19, 133, 179);
   background-size: 100%;
  background-attachment: fixed;
  }
+ body.android {
+  background-size: 100% 100%; /* ou qualquer estilo só para Android */
+  nav-down: auto;
+}
 
 h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align: center;
 }

@@ -33,5 +33,8 @@ function loadGame(gameId) {
     } else {
         alert("Jogo não encontrado!");
     }
+    if (/Android/i.test(navigator.userAgent)) {
+  document.body.classList.add("android");
+}
     
 }
