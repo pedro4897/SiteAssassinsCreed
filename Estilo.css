@@ -3,10 +3,10 @@ body {background-color: rgb(19, 133, 179);
   background-position: cover;
   background-repeat: no-repeat;
   background-size: 100%;
- background-attachment: fixed;
+  background-attachment: fixed;
  }
  body.android {
-  background-size: 100% 100%; /* ou qualquer estilo só para Android */
+  background-size: 50; /* ou qualquer estilo só para Android */
   nav-down: auto;
 }
 
@@ -14,7 +14,8 @@ h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align:
 }
 
 header {
-
+  
+  align-items: center;
   text-align: center;
   padding-left: 35%;
   padding-right: 35%;
