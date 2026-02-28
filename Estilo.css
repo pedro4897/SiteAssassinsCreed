@@ -1,22 +1,17 @@
-body {background-color: rgb(19, 133, 179);
-  background-image: url(imagens/wp2937273.webp);
+body {background-color: rgb(131, 133, 134);
   background-position: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
- }
- body.android {
-  background-size: 50; /* ou qualquer estilo só para Android */
-  nav-down: auto;
-  align-items: center;
-  text-align: center;
+  background-attachment: fixed
+  ;
 }
+
+
 
 h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align: center;
 }
 
 header {
-  align-items: center;
+ 
   text-align: center;
   padding-left: 35%;
   padding-right: 35%;
@@ -25,13 +20,25 @@ header {
 }
 
 
+
+
+
 nav {
     backface-visibility: hidden;
     padding: 1%;
     font-size: x-large;
     font-style: italic;
-   
-    
+     background-image: url(imagens/wp2937273.webp) ;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150%;
+  border-style: groove;
+ 
 
 }
 .nav-links a{
@@ -40,12 +47,11 @@ nav {
   text-decoration-line: none;
   color: rgb(210, 197, 197);
   font-size: x-large;
-   
-   
   
 }
 .nav-links{
   list-style-type: none;
+  
   
 }
 .nome{
@@ -57,3 +63,5 @@ nav {
 .descricao {
   color: aliceblue;
 }
+
+
