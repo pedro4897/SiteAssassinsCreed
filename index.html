@@ -6,19 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Estilo.css">
      <script src = "script.js"></script>
-    <audio controls autoplay loop >
+     <audio controls autoplay loop >
   <source src="audio/1-03. Ezio's Family.mp3" type="audio/mpeg">
 </audio>
     <title>Guia dos Assassinos</title>
 </head>
+   <div id="decoracao" class="decoracao" >
+    <script>
+    const container = document.getElementById("decoracao");
 
+    for (let i = 0; i < 20; i++) { // número de ícones
+      const icon = document.createElement("img");
+      icon.src = "imagens/icons8-logo-assassins-creed-32.png"; // caminho do ícone
+      icon.className = "icone";
+       
+      // posição aleatória
+      icon.style.position = "absolute";
+      icon.style.top = Math.random() * window.innerHeight + "px";
+      icon.style.left = Math.random() * window.innerWidth + "px";
+      icon.style.width = "40px";
+  
+             
+           
+      container.appendChild(icon);
+    }
+  </script>
+    </div>
 <body>
     <header>
+    
         <h1>Conheça a Saga Assassin's Creed </h1>
          <img width="48" height="48" src="https://img.icons8.com/fluency/48/assassins-creed-logo.png"
                 alt="assassins-creed-logo" />
  
         <div id="content" class="content">
+          
+            
        <nav id="navbar" class="navbar" > 
         <ul class="nav-links"> 
            

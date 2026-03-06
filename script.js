@@ -1,4 +1,7 @@
  // Array de jogos com informações
+ 
+
+
 const games = [
     {
         nome: "Assassin's Creed",
@@ -20,6 +23,10 @@ const games = [
     }
     // ... você pode adicionar os outros jogos aqui
 ];
+link.addEventListener("click", (e) => {
+  e.preventDefault(); // evita navegação
+  texto.classList.add("ativo");
+});
 
 // Função que atualiza a página com as informações
 function loadGame(gameId) {
@@ -36,5 +43,6 @@ function loadGame(gameId) {
     if (/Android/i.test(navigator.userAgent)) {
   document.body.classList.add("android");
 }
+
     
 }

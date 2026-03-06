@@ -1,11 +1,25 @@
 body {background-color: rgb(131, 133, 134);
   background-position: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed
-  ;
+  background-attachment: fixed ; 
+}
+.decoracao{
+  position: fixed;
+  background-position: 100%;
+  z-index: -1;
+   width: 40px;
+  animation: mover 10s infinite alternate ease-in-out;
 }
 
 
+
+/* animação */
+@keyframes mover {
+  0%   { transform: translate(0, 0); }
+  50%  { transform: translate(100px, 200px); }
+  100% { transform: translate(-50px, -150px); }
+  
+}
 
 h1 {color: rgb(236, 236, 240);font-size: xx-large;font-style: italic;text-align: center;
 }
@@ -18,10 +32,6 @@ header {
   border: spacing 5px;
   padding-block-end: 10%;
 }
-
-
-
-
 
 nav {
     backface-visibility: hidden;
@@ -38,7 +48,7 @@ nav {
   background-repeat: no-repeat;
   width: 150%;
   border-style: groove;
- 
+ border-radius:50px;
 
 }
 .nav-links a{
@@ -63,5 +73,11 @@ nav {
 .descricao {
   color: aliceblue;
 }
+ 
 
 
+body.android {
+  background-size: 100% 100%; /* ou qualquer estilo só para Android */
+  text-align: center;
+  border-image-width: 50%;
+}
